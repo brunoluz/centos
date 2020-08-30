@@ -1,4 +1,5 @@
 Applications -> System tools -> Settings -> keyboard -> Custom Shortcut
+
 name: terminal
 command: gnome-terminal
 shortcut: ctrl + alt + t
@@ -6,3 +7,6 @@ shortcut: ctrl + alt + t
 name: explorer
 command: nautilus -w
 shortcut: super + e
+
+Applications -> System tools -> Settings -> keyboard -> Keyboard Shortcuts
+Show the run command prompt: super + r
