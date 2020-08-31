@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo yum install epel-release -y
 sudo yum install xclip -y
+sudo yum install ntfs-3g
 
 # configure environment
 
