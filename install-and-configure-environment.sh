@@ -5,7 +5,7 @@ sudo dnf install ntfs-3g
 sudo dnf install git
 
 ## show full path on nautilus
-gsettings set org.gnome.nautilus.preferences always-use-location-entry true
+# gsettings set org.gnome.nautilus.preferences always-use-location-entry true
 
 # nautilus - add "New Document" or right click
 touch ~/Templates/Empty\ Document
