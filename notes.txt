@@ -1,3 +1,4 @@
+# custom shortcuts
 Applications -> System tools -> Settings -> keyboard -> Custom Shortcut
 
 name: terminal
@@ -8,5 +9,6 @@ name: explorer
 command: nautilus -w
 shortcut: super + e
 
+# system shortcuts
 Applications -> System tools -> Settings -> keyboard -> Keyboard Shortcuts
 Show the run command prompt: super + r
