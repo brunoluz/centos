@@ -12,3 +12,4 @@ shortcut: super + e
 # system shortcuts
 Applications -> System tools -> Settings -> keyboard -> Keyboard Shortcuts
 Show the run command prompt: super + r
+Hide all normal windows: super + d

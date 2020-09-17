@@ -1,7 +1,9 @@
 #!/bin/bash
-sudo yum install epel-release -y
-sudo yum install xclip -y
+sudo dnf install epel-release -y
+sudo dnf install xclip -y
 sudo dnf install chrome-gnome-shell -y
+sudo dnf install ntfs-3g
+sudo dnf install git -y
 
 # tap to click
 gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
@@ -22,4 +24,3 @@ rm -f CascadiaCode-2009.14.zip*
 sudo dnf install snapd -y
 sudo systemctl enable snapd.service
 sudo systemctl start snapd.service
-
