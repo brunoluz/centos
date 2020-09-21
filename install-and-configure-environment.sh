@@ -24,3 +24,6 @@ rm -f CascadiaCode-2009.14.zip*
 sudo dnf install snapd -y
 sudo systemctl enable snapd.service
 sudo systemctl start snapd.service
+
+echo "alias chrome='google-chrome'" >> ~/.bashrc
+echo "alias logout='gnome-session-quit'" >> ~/.bashrc
